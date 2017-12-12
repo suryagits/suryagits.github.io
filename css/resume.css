@@ -6,7 +6,8 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96; }
+  color: #868e96;
+ }
 
 @media (min-width: 992px) {
   body {
@@ -37,6 +38,18 @@ h2 {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
 
+.noSubheading{
+  text-transform: none;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+ }
+
+.card{
+  margin:3%;
+
+}
+
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
@@ -53,6 +66,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase; }
 
+/*for large screen devices like laptops, kept the nav bar to the letf*/
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -92,7 +106,9 @@ section.resume-section {
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
+/*for medium and small screen devices, re-orienting navbar to top*/
 @media (min-width: 768px) {
+
   section.resume-section {
     min-height: 100vh; }
     section.resume-section .resume-item .resume-date {
